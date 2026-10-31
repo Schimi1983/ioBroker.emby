@@ -1,7 +1,7 @@
 {
   "common": {
     "name": "emby",
-    "version": "3.0.0",
+    "version": "3.1.0-alpha.0",
     "news": {
       "3.0.0": {
         "en": "**BREAKING:** Clients are identified by the Emby device ID instead of the session ID, so the object IDs no longer change when a client reconnects. Existing objects including values, history settings and room/function assignments are migrated automatically; scripts and visualisations using the old IDs have to be adjusted (see README)\nNew states info.deviceId and info.sessionId; several sessions of one client (e.g. browser tabs) are shown as one device\nObjects that older versions created for ioBroker connections (other instances, version 1.3.0) are removed and no longer created\nIntegration test against a mock Emby server added",
